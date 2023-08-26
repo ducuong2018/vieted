@@ -1,0 +1,2 @@
+"use strict";(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[78369],{578369:function(n,t,u){function r(n,t){return t?"".concat(n,"?").concat(new URLSearchParams(t).toString()):n}function o(n){return r("/admin/",n)}function c(n){return r("/admin/oauth/logout/",n)}function e(n){return r("/today/",n)}u.d(t,{HF:function(){return o},Kn:function(){return c},tG:function(){return e}})}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/78369-09bbe7d03e5d1b0b.js.map

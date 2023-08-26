@@ -1,0 +1,39 @@
+.elementor-kit-430{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-color-1d373bd5:#4054B2;--e-global-color-66c27028:#23A455;--e-global-color-1a9d8464:#000;--e-global-color-73a8d140:#FFF;--e-global-typography-primary-font-family:"Google sans";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Google sans";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Google sans";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Google sans";--e-global-typography-accent-font-weight:500;color:#090909;font-weight:normal;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1025px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:768px;}}/* Start custom CSS */.should-hide {
+    display: none
+}
+.elementor-custom-embed-image-overlay, .gamification a {
+    position:relative;
+}
+.elementor-custom-embed-image-overlay img, .gamification a img {
+    width:100%;
+    vertical-align:top;
+}
+.elementor-custom-embed-image-overlay:after, .gamification a:after {
+    content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    opacity:1;
+}
+.elementor-custom-embed-image-overlay:hover:after, .gamification a:hover:after {
+  opacity: 0
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Google sans';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('../../2021/01/GoogleSans-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Google sans';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: ;
+}
+/* End Custom Fonts CSS */
